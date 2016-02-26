@@ -1,0 +1,4 @@
+node_modules
+.index.html.swp
+.server.js.swp
+test.db

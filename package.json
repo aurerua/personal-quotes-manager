@@ -1,0 +1,23 @@
+{
+  "name": "personal-quotes-manager",
+  "version": "1.0.0",
+  "description": "See random quotes and save the ones you like.",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^0.2.10",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "nedb": "^1.8.0",
+    "socket.io": "^0.9.17"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aurelien Giraud",
+  "license": "ISC"
+}
