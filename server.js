@@ -10,13 +10,6 @@ app.engine('handlebars',
 // Tell the app the the view engine property is also handlebars
 app.set('view engine', 'handlebars');
 
-
-// Tell Express on which port to listen
-var port = Number(process.env.PORT || 3000)
-app.listen(port, function() {
-    console.log('listening on ' + port);
-});
-
 // Serve static files
 app.use('/public', express.static('public'));
 
@@ -27,4 +20,10 @@ app.get('/', function(req, res) {
         framework: 'Express',
         templating: "Handlebars"
     });
+});
+
+// Tell Express on which port to listen
+var port = Number(process.env.PORT || 3000)
+app.listen(port, function() {
+    console.log('listening on ' + port);
 });
