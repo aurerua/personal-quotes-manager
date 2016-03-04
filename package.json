@@ -1,7 +1,7 @@
 {
-  "name": "personal-quotes-manager",
+  "name": "express-handlebars",
   "version": "1.0.0",
-  "description": "See random quotes and save the ones you like.",
+  "description": "A boilerplate to start a project with express and handlebars",
   "main": "server.js",
   "dependencies": {
     "async": "^0.2.10",
