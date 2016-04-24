@@ -1,4 +1,6 @@
-# Personal quotes manager
+# Express - Handlebars boilerplate
+
+A tiny boilerplate for getting started with [Express](http://expressjs.com/) and [Handlebars](http://handlebarsjs.com/) 
 
 ## Installation
 
@@ -15,12 +17,3 @@ $ cd express-handlebars && npm install
 ```
 $ node server.js
 ```
-<!--- 
-## Required configuration
-
-## Application Architecture
-
-## Routes/API End Points
-
-## License information
---->
